@@ -55,3 +55,5 @@ window.addEventListener("scroll", function(){
     }
   $('.ui-button').css("font-size", "200%")
 }, false)
+
+/* Bonus Answer: The dialog box was created so that 2 products can be shown perfectly.  If there is only one item in the cart, the dialog box would show an area with a picture icon and say undefined. If there are more than 2 items, only 2 items would be displayed. To fix this problem, the array holding the images and names would have to be iterated and dynamically added to the dialog box. Not sure if it can be done straight from the console but can definitely be done in a js file. */ 
